@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="InfoSearchServer"
+  id="myeclipse.1353568399397"
+  context-root="/InfoSearchServer"
+  j2ee-spec="5.0"
+  archive="InfoSearchServer.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

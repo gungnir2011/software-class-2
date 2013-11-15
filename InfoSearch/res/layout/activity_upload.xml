@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/fileUpload"
+        android:background="@drawable/navigator"
+        android:textColor="#ffffff"
+        android:textSize="30sp"/>
+    <EditText
+        android:id="@+id/file_path"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"        
+        android:hint="@string/file_path"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/select"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/select_file" />
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/upload" />
+    </LinearLayout>
+	<EditText
+        android:id="@+id/content"        
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/file_content"/>  
+
+</LinearLayout>
